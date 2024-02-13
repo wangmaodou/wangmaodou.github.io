@@ -43,7 +43,7 @@
     "NetStateName": "已到样核实",
     "BackState": "0",
     "TaskNunber": "2022200124",
-    "Specifications": "墙厚50mm",
+    "Specifications": "墙厚100mm",
     "TestItems": "耐火性能",
     "TestRemark": "本次申请耐火时间为：2h",
     "InspectionBasisTask": "GB/T 9978.1-2008 《建筑构件耐火试验方法 第1部分：通用要求》;\nGB/T 9978.8-2008 《建筑构件耐火试验方法 第8部分：非承重垂直分隔构件的特殊要求》",
