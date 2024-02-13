@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>【NFTC】报告真伪查询系统</title>
-    <script src="../Scripts/jquery.js" type="text/javascript"></script>
+    <script src="../jquery.js" type="text/javascript"></script>
     <script type="text/javascript">
 
         //获取参数
@@ -27,7 +27,7 @@
             var code = getQueryString("code");
             $.ajax({
                 type: "GET",
-                url: "../Handler/SQLTestHandler.ashx",
+                url: "../SQLTestHandler.ashx",
                 data: { "type": "bgcx_rqcode", keyid: keyid, code: code },
                 dataType: "JSON",
                 success: function (result) {
